@@ -29,9 +29,11 @@ public:
     bool actorVisible(vtkProp* actor);
 
     void setBackgroundColor(const QColor& clr);
+    
     QColor backgroundColor() const;
 
     vtkRenderer* defaultRenderer();
+
     bool defaultRendererTaken() const;
 
     void showOrientationMarker(bool show = true);

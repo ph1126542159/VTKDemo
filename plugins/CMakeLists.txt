@@ -1,5 +1,7 @@
 set(CMAKE_DEBUG_POSTFIX "d")
 add_subdirectory(animation)
+add_subdirectory(buildinsources)
+add_subdirectory(buildinwidgets)
 add_subdirectory(camera)
 add_subdirectory(chart3d)
 add_subdirectory(constructsurface)

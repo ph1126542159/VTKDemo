@@ -1,6 +1,8 @@
 # Prerequisites
 *.d
-
+build*
+.vscode
+*.pdb
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +32,6 @@
 *.exe
 *.out
 *.app
+
+Assistant/*
+*.pro.user
